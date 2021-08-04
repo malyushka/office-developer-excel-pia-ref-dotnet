@@ -91,9 +91,9 @@
         <Parameter Name="Password" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Title">Optional <b>Object</b>. The password for the range.</param>
-        <param name="Range">Required <b>String</b>. The title of range.</param>
-        <param name="Password">Required <see cref="T:Microsoft.Office.Interop.Excel.Range" /> object. The range allowed to be edited.</param>
+        <param name="Title">Required <b>String</b>. The title of range.</param>
+        <param name="Range">Required <see cref="T:Microsoft.Office.Interop.Excel.Range" /> object. The range allowed to be edited.</param>
+        <param name="Password">Optional <b>Object</b>. The password for the range.</param>
         <summary>Adds a range that can be edited on a protected worksheet.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
